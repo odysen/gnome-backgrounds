@@ -1,4 +1,4 @@
-# Maintainer: Antonino Scordino <ant@national.shitposting.agency>
+# Maintainer: ant <ant@national.shitposting.agency>
 # Adapted-from: Philip Goto <philip.goto@gmail.com>
 
 pkgname=gnome-backgrounds
