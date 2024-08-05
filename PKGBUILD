@@ -1,7 +1,7 @@
 # Maintainer: ant <ant@national.shitposting.agency>
 # Adapted-from: Philip Goto <philip.goto@gmail.com>
 
-pkgname=odysen-backgrounds
+pkgname=gnome-backgrounds
 pkgver=43.0.0
 pkgrel=1
 pkgdesc='Background images and data for the Odysen Desktop'
@@ -10,7 +10,7 @@ arch=(any)
 depends=(webp-pixbuf-loader)
 makedepends=(git glib2 meson)
 provides=(gnome-backgrounds)
-conflicts=(gnome-backgrounds-git)
+conflicts=(${pkgname}-git)
 license=(CCPL:by-sa)
 source=(git+${url})
 b2sums=('SKIP')
