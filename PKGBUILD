@@ -5,14 +5,14 @@ pkgname=odysen-backgrounds
 pkgver=43.0.0
 pkgrel=1
 pkgdesc='Background images and data for the Odysen Desktop'
-url='https://github.com/odysen/${pkgname}'
+url=https://github.com/odysen/${pkgname}
 arch=(any)
 depends=(webp-pixbuf-loader)
 makedepends=(git glib2 meson)
-provides=(gnome-backgrounds)
-conflicts=(gnome-backgrounds-git ${pkgname}-git)
+provides=(${pkgname})
+conflicts=(gnome-backgrounds gnome-backgrounds-git ${pkgname}-git)
 license=(CCPL:by-sa)
-source=('git+$url')
+source=(git+${url})
 b2sums=('SKIP')
 
 build() {
