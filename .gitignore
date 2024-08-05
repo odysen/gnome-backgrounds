@@ -10,3 +10,8 @@ intltool-*
 missing
 mkinstalldirs
 *.tar.gz
+
+pkg
+src
+*.pkg*
+odysen-backgrounds
