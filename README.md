@@ -1,46 +1,60 @@
-# GNOME Backgrounds
+![gnome-backgrounds](https://socialify.git.ci/odysen/gnome-backgrounds/image?description=1&font=Jost&language=1&description=1&logo=https%3A%2F%2Fmedia.kerichuu.space%2Fu%2Fsvg_squared.svg%3Fcompress%3Dfalse&name=1&owner=1&stargazers=1&theme=Dark)         
 
-This module contains a set of backgrounds packaged with the GNOME desktop.
+<h1 align="center" style="font-weight: bold;">Odysen Wallpapers</h1>
 
-## Design Guidelines
+<p align="center">
+<a href="#tech">Technologies</a>
+<a href="#started">Getting Started</a>
+<a href="#contribute">Contribute</a> 
+</p>
 
-![Defaults](defaults.webp)
 
-### Default
 
-The default wallpaper has historically been strictly abstract, low contrast. The geometric pattern has oscillated around stripes and triangles and over the years has become part of the GNOME brand. Steering too much away from it will dilute the brand. 
+<p align="center">
+<a href="https://odysen.space">📱 Visit this Project</a>
+</p>
+ 
+<h2 id="tech">💻 Technologies</h2>
 
-### Supplemental
+- Forked off of `gnome-backgrounds`
+- Meson, SVG, basic stuff
+  
+<h2 id="started">🚀 Getting started</h2>
+ 
+<h3>Prerequisites</h3>
 
-It is desirable to have a wide mix of themes and colors for the additional wallpapers. Photographs and illustrations that would otherwise be too contrasty and with high frequency detail to be a good backdrop are perfectly suitable. Starting with GNOME 42, each wallpaper should come in two variants, light and dark. While the actual difference isn't well defined, the dark variant should try to limit the overall brightness.
+- [pacman (makepkg)](https://archlinux.org/packages/core/x86_64/pacman/)
+- [Git](https://git-scm.com/)
+<h3>Building the Arch Linux package</h3>
 
-#### Cultural Considerations
+1. Clone the repo
+2. `makepkg -si`
 
-GNOME is deployed globally. Be aware of some bad connotations in certain geographical areas. Depictions of some animals, flags or body parts are better avoided.
+<h2 id="contribute">📫 Contribute</h2>
 
-#### Technical Constraints
+For those who wish to contribute, including Odysen Developers:
 
-GNOME Human Interface Guidelines povide some [background on size and aspect ratio](https://developer.gnome.org/hig/reference/backgrounds.html) for the wallpapers.
+1. Make a fork of the repository.
+2. **Switch to the `dev` branch**. Changes made to `main` will be **rejected**.
+2. Once you are satisfied with your changes to the code, make a pull request and await approval for a merge.
 
-##### File size
+<h3>Documentations that might help</h3>
 
-Unfortunately due to distribution limits, the background collection has to keep its size contrained to around 40MB. This forces us to replace assets rather than add them. You can download the [Nostalgia](https://flathub.org/apps/details/im.bernard.Nostalgia) app to view previous release wallpapers.
+[📝 How to create a Pull Request](https://www.atlassian.com/git/tutorials/making-a-pull-request)
 
-One wallpaper is reserved for plain color to be used for remote access where it's beneficial for the compression algorithm to cope with it with ease. 
+[💾 Commit pattern](https://gist.github.com/joshbuchea/6f47e86d2510bce28f8e7f42ae84c716)
 
-##### Sharpness
+<h2> 📝 License </h2>
 
-Many photographic sources look great as a thumbnail or scaled down, but at 1:1 aren't 100% sharp. While it may not present itself as a problem on an average laptop screen, the wallpaper has to work on super wide screens where it's cropped to fit and is presented at 1:1 or even scaled up in some cases. Many otherwise suitable background images just fall short when observed at the nominal pixel view. Chromatic aberation and noise is also something that becomes apparent as you approach 1:1.
+```
+This work is licenced under the Creative Commons Attribution-Share Alike 3.0
+United States License. To view a copy of this licence, visit
+http://creativecommons.org/licenses/by-sa/3.0/ or send a letter to Creative
+Commons, 171 Second Street, Suite 300, San Francisco, California 94105, USA.
+```
 
-![Bad Scaling](badscaling.jpg)
+Copy of the license can be found: <a href="http://creativecommons.org/licenses/by-sa/3.0/"> Creative Commons Attribution-Share Alike 3.0</a>
 
-##### Color Banding
+<hr>
 
-Images should look decent even on lower quality displays. Techniques such as dithering should be used for elements with low contrast areas that would otherwise be prone for color banding.
-
-## Background "source"
-To easily create derivative works, the [wallpaper-assets repo](https://gitlab.gnome.org/Teams/Design/wallpaper-assets) contains most of the abstract wallpapers as Blender project files.
-
-## License
-
-CCBYSA / Public Domain / CC0 is preferred. Authorship does need to be sourced, all attribution goes to the AUTHORS file.
+Made with ❤️ by Odysen Team Members
