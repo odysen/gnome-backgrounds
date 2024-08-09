@@ -5,18 +5,18 @@
          xmlns="http://usefulinc.com/ns/doap#">
 
   <name xml:lang="en">gnome-backgrounds</name>
-  <shortdesc xml:lang="en">Background images for the GNOME desktop</shortdesc>
-  <download-page rdf:resource="http://download.gnome.org/sources/gnome-backgrounds/" />
-  <bug-database rdf:resource="https://gitlab.gnome.org/GNOME/gnome-backgrounds/issues/" />
+  <shortdesc xml:lang="en">Background images for the GNOME desktop (odysen fork)</shortdesc>
+  <download-page rdf:resource="http://download.gnome.org/sources/gnome-backgrounds/CHANGEME" />
+  <bug-database rdf:resource="https://gitlab.gnome.org/GNOME/gnome-backgrounds/issues/CHANGEME" />
   <category rdf:resource="http://api.gnome.org/doap-extensions#core" />
   <programming-language>Blender</programming-language>
   <description>Default wallpapers for GNOME.</description>
 
   <maintainer>
     <foaf:Person>
-      <foaf:name>Jakub Steiner</foaf:name>
-      <foaf:mbox rdf:resource="mailto:jimmac@gmail.com" />
-      <gnome:userid>jimmac</gnome:userid>
+      <foaf:name>Keri</foaf:name>
+      <foaf:mbox rdf:resource="mailto:kerichuudev@gmail.com" />
+      <gnome:userid>kerichdev</gnome:userid>
     </foaf:Person>
   </maintainer>
 </Project>
