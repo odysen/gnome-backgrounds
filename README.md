@@ -1,22 +1,60 @@
-# Odysen Backgrounds
+![gnome-backgrounds](https://socialify.git.ci/odysen/gnome-backgrounds/image?description=1&font=Jost&language=1&description=1&logo=https%3A%2F%2Fmedia.kerichuu.space%2Fu%2Fsvg_squared.svg%3Fcompress%3Dfalse&name=1&owner=1&stargazers=1&theme=Dark)         
 
-This module contains a set of backgrounds packaged with the GNOME/Odysen desktop.
+<h1 align="center" style="font-weight: bold;">Odysen Wallpapers</h1>
 
-## Design Guidelines
-#### Technical Constraints
+<p align="center">
+<a href="#tech">Technologies</a>
+<a href="#started">Getting Started</a>
+<a href="#contribute">Contribute</a> 
+</p>
 
-GNOME Human Interface Guidelines povide some [background on size and aspect ratio](https://developer.gnome.org/hig/reference/backgrounds.html) for the wallpapers.
 
-##### File size
 
-Unfortunately due to distribution limits, the background collection has to keep its size contrained to around 40MB. This forces us to replace assets rather than add them. You can download the [Nostalgia](https://flathub.org/apps/details/im.bernard.Nostalgia) app to view previous release wallpapers.
+<p align="center">
+<a href="https://odysen.space">📱 Visit this Project</a>
+</p>
+ 
+<h2 id="tech">💻 Technologies</h2>
 
-One wallpaper is reserved for plain color to be used for remote access where it's beneficial for the compression algorithm to cope with it with ease. 
+- Forked off of `gnome-backgrounds`
+- Meson, SVG, basic stuff
+  
+<h2 id="started">🚀 Getting started</h2>
+ 
+<h3>Prerequisites</h3>
 
-##### Color Banding
+- [pacman (makepkg)](https://archlinux.org/packages/core/x86_64/pacman/)
+- [Git](https://git-scm.com/)
+<h3>Building the Arch Linux package</h3>
 
-Images should look decent even on lower quality displays. Techniques such as dithering should be used for elements with low contrast areas that would otherwise be prone for color banding.
+1. Clone the repo
+2. `makepkg -si`
 
-## License
+<h2 id="contribute">📫 Contribute</h2>
 
-CCBYSA / Public Domain / CC0 is preferred. Authorship does need to be sourced, all attribution goes to the AUTHORS file.
+For those who wish to contribute, including Odysen Developers:
+
+1. Make a fork of the repository.
+2. **Switch to the `dev` branch**. Changes made to `main` will be **rejected**.
+2. Once you are satisfied with your changes to the code, make a pull request and await approval for a merge.
+
+<h3>Documentations that might help</h3>
+
+[📝 How to create a Pull Request](https://www.atlassian.com/git/tutorials/making-a-pull-request)
+
+[💾 Commit pattern](https://gist.github.com/joshbuchea/6f47e86d2510bce28f8e7f42ae84c716)
+
+<h2> 📝 License </h2>
+
+```
+This work is licenced under the Creative Commons Attribution-Share Alike 3.0
+United States License. To view a copy of this licence, visit
+http://creativecommons.org/licenses/by-sa/3.0/ or send a letter to Creative
+Commons, 171 Second Street, Suite 300, San Francisco, California 94105, USA.
+```
+
+Copy of the license can be found: <a href="http://creativecommons.org/licenses/by-sa/3.0/"> Creative Commons Attribution-Share Alike 3.0</a>
+
+<hr>
+
+Made with ❤️ by Odysen Team Members
