@@ -3,9 +3,6 @@
 This module contains a set of backgrounds packaged with the GNOME/Odysen desktop.
 
 ## Design Guidelines
-
-![Defaults](defaults.webp)
-
 #### Technical Constraints
 
 GNOME Human Interface Guidelines povide some [background on size and aspect ratio](https://developer.gnome.org/hig/reference/backgrounds.html) for the wallpapers.
