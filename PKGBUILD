@@ -2,8 +2,8 @@
 # Adapted-from: Philip Goto <philip.goto@gmail.com>
 
 pkgname=gnome-backgrounds
-pkgver=43.0.0
-pkgrel=1
+pkgver=46.0.0
+pkgrel=2
 pkgdesc='Background images and data for the Odysen Desktop'
 url=https://github.com/odysen/${pkgname}
 arch=(any)
