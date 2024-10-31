@@ -2,7 +2,7 @@
 <!DOCTYPE wallpapers SYSTEM "gnome-wp-list.dtd">
 <wallpapers>
   <wallpaper deleted="false">
-    <name>Default Background</name>
+    <name>Ocean</name>
     <filename>@BACKGROUNDDIR@/ocean-l.svg</filename>
     <filename-dark>@BACKGROUNDDIR@/ocean-d.svg</filename-dark>
     <options>zoom</options>
