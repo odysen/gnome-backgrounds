@@ -13,6 +13,8 @@ backgrounds = [
   'pride-l.svg',
   'steep-d.svg',
   'steep-l.svg',
+  'sky-d.svg',
+  'sky-l.svg',
   'wheel-d.svg',
   'wheel-l.svg',
   'world-d.svg',
@@ -27,6 +29,7 @@ foreach metadata : [
   'ocean.xml',
   'pride.xml',
   'steep.xml',
+  'sky.xml',
   'wheel.xml',
   'world.xml']
   configure_file(
