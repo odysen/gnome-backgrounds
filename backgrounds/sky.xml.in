@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!DOCTYPE wallpapers SYSTEM "gnome-wp-list.dtd">
+<wallpapers>
+  <wallpaper deleted="false">
+    <name>Default Background</name>
+    <filename>@BACKGROUNDDIR@/sky-l.svg</filename>
+    <filename-dark>@BACKGROUNDDIR@/sky-d.svg</filename-dark>
+    <options>zoom</options>
+    <shade_type>solid</shade_type>
+    <pcolor>#0038FF</pcolor>
+    <scolor>#000000</scolor>
+  </wallpaper>
+</wallpapers>
