@@ -2,7 +2,7 @@
 <!DOCTYPE wallpapers SYSTEM "gnome-wp-list.dtd">
 <wallpapers>
   <wallpaper deleted="false">
-    <name>Default Background</name>
+    <name>Sky</name>
     <filename>@BACKGROUNDDIR@/sky-l.jxl</filename>
     <filename-dark>@BACKGROUNDDIR@/sky-d.jxl</filename-dark>
     <options>zoom</options>
