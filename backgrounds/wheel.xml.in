@@ -3,8 +3,8 @@
 <wallpapers>
   <wallpaper deleted="false">
     <name>Wheels</name>
-    <filename>@BACKGROUNDDIR@/wheel-l.svg</filename>
-    <filename-dark>@BACKGROUNDDIR@/wheel-d.svg</filename-dark>
+    <filename>@BACKGROUNDDIR@/wheel-l.jxl</filename>
+    <filename-dark>@BACKGROUNDDIR@/wheel-d.jxl</filename-dark>
     <options>zoom</options>
     <shade_type>solid</shade_type>
     <pcolor>#1EDB91</pcolor>

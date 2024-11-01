@@ -3,8 +3,8 @@
 <wallpapers>
   <wallpaper deleted="false">
     <name>Ocean</name>
-    <filename>@BACKGROUNDDIR@/ocean-l.svg</filename>
-    <filename-dark>@BACKGROUNDDIR@/ocean-d.svg</filename-dark>
+    <filename>@BACKGROUNDDIR@/ocean-l.jxl</filename>
+    <filename-dark>@BACKGROUNDDIR@/ocean-d.jxl</filename-dark>
     <options>zoom</options>
     <shade_type>solid</shade_type>
     <pcolor>#0FEB93</pcolor>

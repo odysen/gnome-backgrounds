@@ -3,8 +3,8 @@
 <wallpapers>
   <wallpaper deleted="false">
     <name>Pride</name>
-    <filename>@BACKGROUNDDIR@/pride-l.svg</filename>
-    <filename-dark>@BACKGROUNDDIR@/pride-d.svg</filename-dark>
+    <filename>@BACKGROUNDDIR@/pride-l.jxl</filename>
+    <filename-dark>@BACKGROUNDDIR@/pride-d.jxl</filename-dark>
     <options>zoom</options>
     <shade_type>solid</shade_type>
     <pcolor>#ABEED1</pcolor>

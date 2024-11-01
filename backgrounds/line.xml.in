@@ -3,8 +3,8 @@
 <wallpapers>
   <wallpaper deleted="false">
     <name>Lines</name>
-    <filename>@BACKGROUNDDIR@/line-l.svg</filename>
-    <filename-dark>@BACKGROUNDDIR@/line-d.svg</filename-dark>
+    <filename>@BACKGROUNDDIR@/line-l.jxl</filename>
+    <filename-dark>@BACKGROUNDDIR@/line-d.jxl</filename-dark>
     <options>zoom</options>
     <shade_type>solid</shade_type>
     <pcolor>#C2BEEF</pcolor>

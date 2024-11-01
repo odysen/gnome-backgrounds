@@ -3,8 +3,8 @@
 <wallpapers>
   <wallpaper deleted="false">
     <name>Steep</name>
-    <filename>@BACKGROUNDDIR@/steep-l.svg</filename>
-    <filename-dark>@BACKGROUNDDIR@/steep-d.svg</filename-dark>
+    <filename>@BACKGROUNDDIR@/steep-l.jxl</filename>
+    <filename-dark>@BACKGROUNDDIR@/steep-d.jxl</filename-dark>
     <options>zoom</options>
     <shade_type>solid</shade_type>
     <pcolor>#67ECBC</pcolor>

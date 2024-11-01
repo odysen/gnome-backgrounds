@@ -3,8 +3,8 @@
 <wallpapers>
   <wallpaper deleted="false">
     <name>The World</name>
-    <filename>@BACKGROUNDDIR@/world-l.svg</filename>
-    <filename-dark>@BACKGROUNDDIR@/world-d.svg</filename-dark>
+    <filename>@BACKGROUNDDIR@/world-l.jxl</filename>
+    <filename-dark>@BACKGROUNDDIR@/world-d.jxl</filename-dark>
     <options>zoom</options>
     <shade_type>solid</shade_type>
     <pcolor>#FF0066</pcolor>

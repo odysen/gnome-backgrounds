@@ -3,8 +3,8 @@
 <wallpapers>
   <wallpaper deleted="false">
     <name>Bloom</name>
-    <filename>@BACKGROUNDDIR@/bloom-l.svg</filename>
-    <filename-dark>@BACKGROUNDDIR@/bloom-d.svg</filename-dark>
+    <filename>@BACKGROUNDDIR@/bloom-l.jxl</filename>
+    <filename-dark>@BACKGROUNDDIR@/bloom-d.jxl</filename-dark>
     <options>zoom</options>
     <shade_type>solid</shade_type>
     <pcolor>#FFC290</pcolor>
