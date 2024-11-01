@@ -3,7 +3,7 @@
 
 pkgname=gnome-backgrounds
 pkgver=47.0.0
-pkgrel=1
+pkgrel=2
 pkgdesc='Background images and data for the Odysen Desktop'
 url=https://github.com/odysen/${pkgname}
 arch=(any)
