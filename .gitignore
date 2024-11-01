@@ -16,3 +16,5 @@ src
 *.pkg*
 odysen-backgrounds
 gnome-backgrounds
+svg
+jxl
