@@ -3,22 +3,22 @@ dataconf.set('BACKGROUNDDIR', backgrounddir)
 dataconf.set('datadir', datadir)
 
 backgrounds = [
-  'bloom-d.svg',
-  'bloom-l.svg',
-  'line-d.svg',
-  'line-l.svg',
-  'ocean-d.svg',
-  'ocean-l.svg',
-  'pride-d.svg',
-  'pride-l.svg',
-  'steep-d.svg',
-  'steep-l.svg',
-  'sky-d.svg',
-  'sky-l.svg',
-  'wheel-d.svg',
-  'wheel-l.svg',
-  'world-d.svg',
-  'world-l.svg'
+  'bloom-d.jxl',
+  'bloom-l.jxl',
+  'line-d.jxl',
+  'line-l.jxl',
+  'ocean-d.jxl',
+  'ocean-l.jxl',
+  'pride-d.jxl',
+  'pride-l.jxl',
+  'steep-d.jxl',
+  'steep-l.jxl',
+  'sky-d.jxl',
+  'sky-l.jxl',
+  'wheel-d.jxl',
+  'wheel-l.jxl',
+  'world-d.jxl',
+  'world-l.jxl'
 ]
 
 install_data(backgrounds, install_dir: backgrounddir)
